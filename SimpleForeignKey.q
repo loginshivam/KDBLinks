@@ -14,5 +14,5 @@ select time,sym,size,price,sym.countryCode,sym.countryName,sym.ecnName from trad
 
 `trade insert(.z.P;`USD;10;1.4)
 // cast error if key does not exists in currencyInfo
-`trade insert(.z.P;`CHK;10;1.4)
+//`trade insert(.z.P;`CHK;10;1.4)
 
